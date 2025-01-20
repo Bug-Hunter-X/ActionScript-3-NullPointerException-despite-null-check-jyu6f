@@ -1,0 +1,1 @@
+This repository demonstrates a common ActionScript 3 error where a NullPointerException is thrown despite an explicit null check. The bug arises from the order of operations and the way the compiler handles short-circuiting. The solution showcases how to avoid this error by using the `&&` operator properly or utilizing the `hasOwnProperty()` method.
